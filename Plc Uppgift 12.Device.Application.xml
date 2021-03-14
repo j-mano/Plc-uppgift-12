@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.10.0</Version>
+    <SymbolConfigObject version="3.5.10.40" runtimeid="3.5.10.40" libversion="3.5.10.0" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Plc Uppgift 12" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="DropBox" type="T_BOOL" access="ReadWrite" />
+        <Node name="MotorControl1" type="T_BOOL" access="ReadWrite" />
+        <Node name="MotorControl2" type="T_BOOL" access="ReadWrite" />
+        <Node name="MotorControl3" type="T_BOOL" access="ReadWrite" />
+        <Node name="MotorControl4" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor2" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor3" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor4" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor5" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor6" type="T_BOOL" access="ReadWrite" />
+        <Node name="Sensor7" type="T_BOOL" access="ReadWrite" />
+        <Node name="TurnControlFwd" type="T_BOOL" access="ReadWrite" />
+        <Node name="TurnControlRev" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>

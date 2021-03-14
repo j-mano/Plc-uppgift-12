@@ -1,0 +1,5 @@
+knapp ska lämna lådaa på bana 1.
+låda ska köras direkt till conveyor 2.
+stanna vid sensor 2 1 sekund ska den åka till rätt conveyor. con 3 för små lådor och con 4 för stora.
+efter att sensor 4 är träffad ska con 2 åka tillbaka till default utläga
+systemet ska resetas efter att alla sensorer är träffade.

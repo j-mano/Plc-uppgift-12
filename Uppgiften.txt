@@ -6,7 +6,12 @@ System description
 There are 4 conveyors, 3 of them are regular conveyors (1, 3 and 4),
 but conveyor 2 is also a turning conveyor. This means that it can rotate on its vertical axis.
 Each conveyor has a motor commanded with a motor contactor to run it forward.
-The contactors are connected to outputs “MotorControl1” to “MotorControl4”. Each conveyor has also one sensor (sensors 1 to 4) which will be activated if any box (small or big) goes through the conveyor and crosses the detection line. An additional sensor (sensor 5) is placed on conveyor 2 to detect just the big boxes. The sensors are connected to PLC inputs “Sensor1” to “Sensor5”. Conveyor 2 has an additional motor contactor to make the conveyor turn. Running the turning motor reverse, it aligns conveyor 2 with 1 and 3, running it forward with conveyor 4, TurnControlFwd” and “TurnControlRev” PLC outputs are used for that. Two sensors connected to inputs “Sensor6” and “Sensor7” are placed to know if it is on forward or reverse position respectively.
+The contactors are connected to outputs “MotorControl1” to “MotorControl4”.
+Each conveyor has also one sensor (sensors 1 to 4) which will be activated if any box (small or big)
+goes through the conveyor and crosses the detection line. An additional sensor (sensor 5) is placed on conveyor 2 to detect just the big boxes.
+The sensors are connected to PLC inputs “Sensor1” to “Sensor5”. Conveyor 2 has an additional motor contactor to make the conveyor turn.
+Running the turning motor reverse, it aligns conveyor 2 with 1 and 3, running it forward with conveyor 4, TurnControlFwd” and “TurnControlRev” PLC outputs are used for that.
+Two sensors connected to inputs “Sensor6” and “Sensor7” are placed to know if it is on forward or reverse position respectively.
 
 The system includes a panel with two buttons to drop small or big boxes on conveyor 1.
 
